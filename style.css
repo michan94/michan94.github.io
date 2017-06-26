@@ -18,6 +18,27 @@ body {
 	background-attachment: fixed;
 }
 
+ul {
+	padding: 0;
+}
+
+li {
+	color: #14213D;
+	display: inline-block;
+	font-family: 'Abel', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin 16px 20px;
+	text-transform: uppercase;	
+}
+
+#logo {
+	color: #FFF;
+	font-family: 'Abel', sans-serif;
+	font-size: 32px;
+	padding: 0px 50px;
+}
+
 .cover-content {
   	box-sizing: border-box;
   	margin: 0 auto;
@@ -33,5 +54,5 @@ body {
 	font-family: 'Amatic SC', cursive;
 	font-size: 26px;
 	padding: 14px;
-	background-image: -webkit-linear-gradient(#FFF, #CCCCFF);
+	background-image: -webkit-linear-gradient(#FFD194, #BC1324);
 }
