@@ -1,3 +1,9 @@
 * {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
+
+.centrepiece {
+	background: url(https://www.adtechnosys.com/wp-content/uploads/2015/04/Website-Design-Background.png) no-repeat center center;
+	background-size: cover;
+	
+}
