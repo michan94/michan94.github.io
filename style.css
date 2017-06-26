@@ -15,6 +15,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .cover-content {
@@ -32,4 +33,5 @@ body {
 	font-family: 'Amatic SC', cursive;
 	font-size: 26px;
 	padding: 14px;
+	background-image: -webkit-linear-gradient(#FFF, #CCCCFF);
 }
