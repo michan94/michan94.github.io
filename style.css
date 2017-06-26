@@ -2,8 +2,34 @@
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.centrepiece {
-	background: url("https://www.adtechnosys.com/wp-content/uploads/2015/04/Website-Design-Background.png");
+body {
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+
+#cover {
+	height: 900px;
+	position: relative;
+	background-image: url("https://www.adtechnosys.com/wp-content/uploads/2015/04/Website-Design-Background.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
 	background-size: cover;
-	
+}
+
+.cover-content {
+  	box-sizing: border-box;
+  	margin: 0 auto;
+  	position: relative;
+  	text-align: center;
+  	top: 280px;
+  	width: 70%;
+}
+
+.btn {
+	background-color:#14213D;
+	color: #FFF;
+	font-family: 'Amatic SC', cursive;
+	font-size: 26px;
+	padding: 14px;
 }
