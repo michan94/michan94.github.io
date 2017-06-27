@@ -61,6 +61,23 @@ li {
   	width: 70%;
 }
 
+h1 {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+}
+
 .btn {
 	background-color:#14213D;
 	color: #14213D;
