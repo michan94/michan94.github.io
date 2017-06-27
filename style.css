@@ -13,7 +13,7 @@ body {
 	position: relative;
 	top: -111155px;
 	width: 100%;
-	background-image: url("../images/Website-Design-Background.png") no-repeat center bottom;
+	background-image: url("images/Website-Design-Background.png") no-repeat center bottom;
 	background-size: cover;
 	background-attachment: fixed;
 }
