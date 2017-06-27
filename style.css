@@ -11,7 +11,7 @@ body {
 #cover {
 	height: 900px;
 	position: relative;
-	/** top: -111155px; **/
+	top: -111155px;
 	width: 100%;
 	background-image: url("images/Website-Design-Background.png") no-repeat center bottom;
 	background-size: cover;
