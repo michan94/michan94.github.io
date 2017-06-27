@@ -1,6 +1,6 @@
-* {
+/** * {
   border: 1px solid rgba(0, 0, 0, 0.3);
-}
+} **/
 
 body {
 	background-color: #FFF;
@@ -11,6 +11,8 @@ body {
 #cover {
 	height: 900px;
 	position: relative;
+	top: -111155px;
+	width: 100%;
 	background-image: url("https://www.adtechnosys.com/wp-content/uploads/2015/04/Website-Design-Background.png");
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -45,7 +47,7 @@ li {
 }
 
 #logo {
-	color: #FFF;
+	color: #FCA311;
 	font-family: 'Abel', sans-serif;
 	font-size: 32px;
 	padding: 0px 50px;
