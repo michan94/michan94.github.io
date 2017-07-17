@@ -72,6 +72,7 @@ html {
 }
 
 .btn-project {
+  position: relative;
   background-color: #333;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -84,6 +85,7 @@ html {
 }
 
 .subsection {
+  position: relative;
   float: left;
   width: 33%;
   font-family: 'Raleway', sans-serif;
@@ -127,20 +129,4 @@ html {
   text-transform: uppercase;  
   display: inline-block;
   margin-bottom: 20px;      
-}
-
-#scrolling {
-  margin-top: 0; padding-left: 105px;
-  font-family: 'Raleway', sans-serif;
-  text-align: left; list-style: none;
-  animation: 6s linear 0s normal none infinite change;
-  -webkit-animation: 6s linear 0s normal none infinite change;
-  -moz-animation: 6s linear 0s normal none infinite change;
-  -o-animation: 6s linear 0s normal none infinite change;
-}
-
-.visible {
-	  float: left; font-weight: 100;
-	  overflow: hidden; height: 40px;
-	  font-family: 'Raleway', sans-serif;
 }
