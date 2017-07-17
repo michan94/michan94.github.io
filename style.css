@@ -85,6 +85,8 @@ html {
 }
 
 .subsection {
+  background: url(http://wallpapercave.com/wp/uuXY5N8.jpg) no-repeat center center;
+  background-size: cover;
   position: relative;
   float: left;
   width: 33%;
