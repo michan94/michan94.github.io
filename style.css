@@ -1,6 +1,6 @@
-* {
+/** * {
   border: 1px solid rgba(0, 0, 0, 0.3);
-}
+} **/
 
 body {
 	/** background-color: #FFF; **/
@@ -128,3 +128,13 @@ html {
   display: inline-block;
   margin-bottom: 20px;      
 }
+
+#scrolling {
+  margin-top: 0; padding-left: 105px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left; list-style: none;
+  animation: 6s linear 0s normal none infinite change;
+  -webkit-animation: 6s linear 0s normal none infinite change;
+  -moz-animation: 6s linear 0s normal none infinite change;
+  -o-animation: 6s linear 0s normal none infinite change;
+	}
