@@ -87,6 +87,7 @@ html {
 .subsection {
   padding-top: 80px;
   padding-bottom: 100px;
+  background: url(https://static.pexels.com/photos/64779/pexels-photo-64779.jpeg) no-repeat center center;
 }
 
 .subsection .col{
