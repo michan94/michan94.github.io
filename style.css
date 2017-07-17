@@ -85,11 +85,15 @@ html {
 }
 
 .subsection {
+  padding-top: 80px;
+  padding-bottom: 100px;
   background: url(http://wallpapercave.com/wp/uuXY5N8.jpg) no-repeat center center;
   background-size: cover;
-  position: relative;
-  float: center;
-  width: 100%;
+}
+
+.subsection .col{
+  float: left;
+  width: 33%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
