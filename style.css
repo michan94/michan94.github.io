@@ -39,6 +39,10 @@ html {
   text-transform: uppercase;
 }
 
+.navigation-logo {
+  font-size: 1.8em;
+}
+
 .listitems {
   color: #fff;
   display: inline;
@@ -88,8 +92,8 @@ html {
   background: url(http://wallpapercave.com/wp/uuXY5N8.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
-  float: left;
-  /** width: 33%; **/
+  float: center;
+  width: 100%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
