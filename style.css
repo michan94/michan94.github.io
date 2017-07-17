@@ -137,4 +137,10 @@ html {
   -webkit-animation: 6s linear 0s normal none infinite change;
   -moz-animation: 6s linear 0s normal none infinite change;
   -o-animation: 6s linear 0s normal none infinite change;
-	}
+}
+
+.visible {
+	  float: left; font-weight: 100;
+	  overflow: hidden; height: 40px;
+	  font-family: 'Raleway', sans-serif;
+}
