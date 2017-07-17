@@ -39,6 +39,16 @@ html {
   text-transform: uppercase;
 }
 
+.listitems {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;	
+}
+
 .jumbotron {
   background: url(http://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png) no-repeat center center;
   background-size: cover;
