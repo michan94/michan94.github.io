@@ -89,7 +89,7 @@ html {
   background-size: cover;
   position: relative;
   float: left;
-  width: 33%;
+  /** width: 33%; **/
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
