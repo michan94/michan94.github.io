@@ -8,79 +8,67 @@ body {
 	padding: 0;
 }
 
-#cover {
-	height: 900px;
-	position: relative;
-	top: -111155px;
-	width: 100%;
-	background-image: url("images/Website-Design-Background.png") no-repeat center bottom;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.navigation {
-	background-color: rgba(255, 255, 255, 0.9);
-	overflow-y: auto;
-	position: fixed;
-	left: 0;
-	top: 0;
-	text-align: center;
-	width: 100%;
-	z-index: 10000;
-}
-
-ul {
+html {
+	margin: 0;
 	padding: 0;
 }
 
-li {
-	color: #14213D;
-	display: inline-block;
-	font-family: 'Abel', sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	margin 16px 20px;
-	text-transform: uppercase;	
+.header {
+  background-color: #333;
 }
 
-#logo {
-	color: #FCA311;
-	font-family: 'Abel', sans-serif;
-	font-size: 32px;
-	padding: 0px 50px;
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
-.cover-content {
-  	box-sizing: border-box;
-  	margin: 0 auto;
-  	position: relative;
-  	text-align: center;
-  	top: 280px;
-  	width: 70%;
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
 }
 
-h1 {
-  color: #FFF;
+.navigation li {
+  color: #fff;
+  display: inline;
   font-family: 'Raleway', sans-serif;
-  font-size: 72px;
-  line-height: 60px;
-  padding: 20px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background: url(http://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png) no-repeat center center;
+  background-size: cover;
+  height: 800px;
+}
+
+.main {
+  position: relative;
+  top: 180px;
   text-align: center;
 }
 
-h2 {
-  color: #FFF;
+.main h1 {
+  color: #333;
   font-family: 'Raleway', sans-serif;
-  font-size: 42px;
-  font-weight: 300;
-  text-align: center;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
 }
 
-.btn {
-	background-color:#14213D;
-	color: #14213D;
-	font-family: 'Amatic SC', cursive;
-	font-size: 26px;
-	padding: 14px;
-	background-image: -webkit-linear-gradient(#FFF, #CCCCFF);
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
