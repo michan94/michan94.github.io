@@ -135,6 +135,29 @@ html {
   margin-bottom: 20px;      
 }
 
+.contact-main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.contact-main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contact-main h2 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
 
 /** FOOTER
 .footer {
